@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Rate My Edgar</title>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+<!-- this is your grid container -->
+<div id="container">
+
+<header>
+	<h1>Rate My Edgar</h1>
+</header>
+
+<div id="edgar">
+<div id="title">
+<h2>Edgar</h2>
+<hr>
+</div>
+<div id="photos">
+<img id="bg1" src="images/Backgrounds/1.png" alt="bg">
+<img id="bg2" src="images/Backgrounds/2.png" alt="bg">
+<img id="bg3" src="images/Backgrounds/3.png" alt="bg">
+<img id="bg4" src="images/Backgrounds/4.png" alt="bg">
+<img id="bg5" src="images/Backgrounds/5.png" alt="bg">
+<img id="bg6" src="images/Backgrounds/6.png" alt="bg">
+<img id="bg7" src="images/Backgrounds/7.png" alt="bg">
+<img id="bg8" src="images/Backgrounds/8.png" alt="bg">
+<img id="bg9" src="images/Backgrounds/9.png" alt="bg">
+<img id="edgarbod" src="images/Edgar.png" alt="Edgar's Body">
+<img id="cloth1" src="images/Clothes/1.png" alt="clothes">
+<img id="cloth2" src="images/Clothes/2.png" alt="clothes">
+<img id="cloth3" src="images/Clothes/3.png" alt="clothes">
+<img id="cloth4" src="images/Clothes/4.png" alt="clothes">
+<img id="cloth5" src="images/Clothes/5.png" alt="clothes">
+<img id="cloth6" src="images/Clothes/6.png" alt="clothes">
+<img id="cloth7" src="images/Clothes/7.png" alt="clothes">
+<img id="cloth8" src="images/Clothes/8.png" alt="clothes">
+<img id="cloth9" src="images/Clothes/9.png" alt="clothes">
+<img id="mouth1" src="images/Mouths/1.png" alt="mouth">
+<img id="mouth2" src="images/Mouths/2.png" alt="mouth">
+<img id="mouth3" src="images/Mouths/3.png" alt="mouth">
+<img id="mouth4" src="images/Mouths/4.png" alt="mouth">
+<img id="mouth5" src="images/Mouths/5.png" alt="mouth">
+<img id="mouth6" src="images/Mouths/6.png" alt="mouth">
+<img id="mouth7" src="images/Mouths/7.png" alt="mouth">
+<img id="mouth8" src="images/Mouths/8.png" alt="mouth">
+<img id="mouth9" src="images/Mouths/9.png" alt="mouth">
+<img id="eye1" src="images/Eyes/1.png" alt="eyes">
+<img id="eye2" src="images/Eyes/2.png" alt="eyes">
+<img id="eye3" src="images/Eyes/3.png" alt="eyes">
+<img id="eye4" src="images/Eyes/4.png" alt="eyes">
+<img id="eye5" src="images/Eyes/5.png" alt="eyes">
+<img id="eye6" src="images/Eyes/6.png" alt="eyes">
+<img id="eye7" src="images/Eyes/7.png" alt="eyes">
+<img id="eye8" src="images/Eyes/8.png" alt="eyes">
+<img id="eye9" src="images/Eyes/9.png" alt="eyes">
+<img id="hair1" src="images/Hair/1.png" alt="hair">
+<img id="hair2" src="images/Hair/2.png" alt="hair">
+<img id="hair3" src="images/Hair/3.png" alt="hair">
+<img id="hair4" src="images/Hair/4.png" alt="hair">
+<img id="hair5" src="images/Hair/5.png" alt="hair">
+<img id="hair6" src="images/Hair/6.png" alt="hair">
+<img id="hair7" src="images/Hair/7.png" alt="hair">
+<img id="hair8" src="images/Hair/8.png" alt="hair">
+<img id="hair9" src="images/Hair/9.png" alt="hair">
+</div>
+<div id="refresh">
+<p id="text1">Refresh</p>
+</div>
+<div id="submit1">
+<p id="text2">Submit</p>
+</div>
+
+<p id="edgarid">ID: </p>
+<p id="ined">Input an Edgar ID:</p>
+<label class="form-control-label">Input an Edgar ID: <input class="form-control" type="text" name="ed" id="edid">
+<button id="submit2" onclick="findEdgar()">Submit</button>
+
+<div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div>
+  
+<p id="dumbp">Here Goes:</p>
+</div>	
+
+
+<div id="story">
+<h2>What Are NFTs?</h2>
+<hr>
+<p>A non-fungible token (NFT) is a unique and non-interchangeable unit of data stored on a digital ledger (blockchain).[1] NFTs can be associated with reproducible digital files such as photos, videos, and audio. NFTs use a digital ledger to provide a public certificate of authenticity or proof of ownership, but it does not restrict the sharing or copying of the underlying digital file. The lack of interchangeability (fungibility) distinguishes NFTs from blockchain cryptocurrencies, such as Bitcoin.</p>
+<h2>How Do NFTs Work?</h2>
+<hr>
+<p>NFTs function like cryptographic tokens, but, unlike cryptocurrencies such as Bitcoin or Ethereum, NFTs are not mutually interchangeable, hence not fungible. While all bitcoins are equal, each NFT may represent a different underlying asset and thus may have a different value.[8] NFTs are created when blockchains string records of cryptographic hash, a set of characters identifying a set of data, onto previous records therefore creating a chain of identifiable data blocks.[9] This cryptographic transaction process ensures the authentication of each digital file by providing a digital signature that is used to track NFT ownership.[9] However, data links that point to details like where the art is stored can die.[10]</p>
+</div>
+
+<footer>
+	<p>This page is an assignment for a University of Florida course: JOU 3363 Introduction to Web Apps</p>
+</footer>
+
+
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

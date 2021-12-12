@@ -1,0 +1,457 @@
+html {
+    font-size: 100%;
+}
+body {
+    font-family: Roboto, Arial, sans-serif;
+    background: #e5e8c8;
+    color: #000;
+    margin: 0;
+}
+h1, h2 {
+    font-family: Merriweather, Times New Roman, serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+#tagline {
+    font-style: italic;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+hr {
+	height: 3px;
+	background-color: #000;
+}
+
+#container {
+    max-width: 1280px
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+	grid-template-areas:
+        "header header"
+        "story edgar"
+		"footer  footer";
+}
+
+
+
+header {
+    grid-area: header;
+    background: #00BF2C; 
+}
+
+
+#bg1{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#bg2{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#bg3{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#bg4{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#bg5{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#bg6{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#bg7{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#bg8{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#bg9{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#edgarbod{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#cloth1{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#cloth2{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#cloth3{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#cloth4{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#cloth5{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#cloth6{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#cloth7{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#cloth8{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#cloth9{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#mouth1{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#mouth2{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#mouth3{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#mouth4{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#mouth5{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#mouth6{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#mouth7{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#mouth8{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#mouth9{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#eye1{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#eye2{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#eye3{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#eye4{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#eye5{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#eye6{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#eye7{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#eye8{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#eye9{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#hair1{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#hair2{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#hair3{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#hair4{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#hair5{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#hair6{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#hair7{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#hair8{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+#hair9{
+	position: absolute;
+	top: 5;
+	left: 2;
+	max-width: 200px;
+}
+
+#refresh {
+	width: 90px;
+	height: 60px;
+	background-color: #00BF2C;
+	color: #fff;
+	position: absolute;
+	top: 420px;
+}
+#submit1 {
+	width: 90px;
+	height: 60px;
+	background-color: #00BF2C;
+	color: #fff;
+	position: relative;
+	top: 246px;
+	left: 110px;
+	text-align: center;
+	padding-top: 4px;
+}
+
+#text1 {
+	text-align: center;
+}
+#photos{
+
+}
+#edgarid{
+	position: relative;
+	left: 210px;
+	bottom: 50px;
+}
+#edid{
+	position: relative;
+	bottom: 60px;
+	left: 80px;
+}
+#dumbp{
+	position: relative;
+	left: 200px;
+}
+#ined{
+	position: relative;
+	bottom: 50px;
+	left: 210px;
+}
+#submit2{
+	position: relative;
+	bottom: 60px;
+	left: 80px;
+}
+}
+#text2{
+	
+}
+#story {
+    grid-area: story;
+	padding: 25px;
+}
+footer {
+    grid-area: footer;
+	padding: 25px;
+	text-align: center;
+}
+
+.rate {
+	position: relative;
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+a {
+    color: #7c6a60;
+}
+a:hover {
+    color: #f4cdb7;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 700px){
+	#container{
+		margin: 1rem;
+		max-width: 1280px;
+		margin: auto;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(4, auto);
+		grid-template-areas:
+			"header"
+			"story"
+			"edgar"
+			"footer";
+	}
+	
+	header img{
+		display: none;
+	}
+}
