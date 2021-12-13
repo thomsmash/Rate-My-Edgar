@@ -32,7 +32,7 @@ hr {
 }
 
 #container {
-    max-width: 1280px
+    max-width: 1280px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -50,7 +50,7 @@ header {
     background: #00BF2C; 
 }
 
-
+/*The following 93 CSS properties throw an error in the validator, but I'm afraid of breaking my page layout if I change anything.*/
 #bg1{
 	position: absolute;
 	top: 5;
@@ -379,7 +379,7 @@ header {
 	top: 135px;
 	left: 390px;
 }
-}
+
 #text2{
 	
 }
