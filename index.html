@@ -77,7 +77,7 @@
 <p id="text2">Submit</p>
 </div>
 
-<p id="edgarid">ID: </p>
+<p id="edgarid">Edgar ID: </p>
 <p id="ined">Input an Edgar ID:</p>
 <input type="text" id="edid">
 <button id="submit2" onclick="findEdgar()">Submit</button>
@@ -85,15 +85,15 @@
 <p id="label1">Rate This Edgar:</p>
 
 <div class="rate" id="stars">
-    <input type="radio" id="star5" name="rate" value="5" />
+    <input type="radio" id="star5" class="star" name="rate" value="5" />
     <label for="star5" title="text">5 stars</label>
-    <input type="radio" id="star4" name="rate" value="4" />
+    <input type="radio" id="star4" class="star" name="rate" value="4" />
     <label for="star4" title="text">4 stars</label>
-    <input type="radio" id="star3" name="rate" value="3" />
+    <input type="radio" id="star3" class="star" name="rate" value="3" />
     <label for="star3" title="text">3 stars</label>
-    <input type="radio" id="star2" name="rate" value="2" />
+    <input type="radio" id="star2" class="star" name="rate" value="2" />
     <label for="star2" title="text">2 stars</label>
-    <input type="radio" id="star1" name="rate" value="1" />
+    <input type="radio" id="star1" class="star" name="rate" value="1" />
     <label for="star1" title="text">1 star</label>
   </div>
   
@@ -104,10 +104,14 @@
 <div id="story">
 <h2>What Are NFTs?</h2>
 <hr>
-<p>A non-fungible token (NFT) is a unique and non-interchangeable unit of data stored on a digital ledger (blockchain).[1] NFTs can be associated with reproducible digital files such as photos, videos, and audio. NFTs use a digital ledger to provide a public certificate of authenticity or proof of ownership, but it does not restrict the sharing or copying of the underlying digital file. The lack of interchangeability (fungibility) distinguishes NFTs from blockchain cryptocurrencies, such as Bitcoin.</p>
+<p>NFT stands for non-fungible token. They are a type of digital art whose ownership is verified on the <a href="https://dl.acm.org/doi/fullHtml/10.1145/3474355">blockchain.</a> The blockchain is the technology that allows cryptocurrencies such as Bitcoin and Etherium to function, though the major difference being that cryptocurrencies are fungible. This means that one unit of the currency, say Bitcoin, is interchangeable with every other Bitcoin. NFTs use unique addresses on the blockchain to differentiate between each other, making each one a unique digital good.</p>
 <h2>How Do NFTs Work?</h2>
 <hr>
-<p>NFTs function like cryptographic tokens, but, unlike cryptocurrencies such as Bitcoin or Ethereum, NFTs are not mutually interchangeable, hence not fungible. While all bitcoins are equal, each NFT may represent a different underlying asset and thus may have a different value.[8] NFTs are created when blockchains string records of cryptographic hash, a set of characters identifying a set of data, onto previous records therefore creating a chain of identifiable data blocks.[9] This cryptographic transaction process ensures the authentication of each digital file by providing a digital signature that is used to track NFT ownership.[9] However, data links that point to details like where the art is stored can die.[10]</p>
+<p>NFTs are sometimes hand drawn or hand created, but most of the NFTs that are currently popular are generated with some form of algorithm. By randomizing the features of each NFT, creators can create hundreds of unique pieces of art with significantly fewer drawings. Once the NFTs are created, they are then <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3822743">"minted"</a> on the blockchain and given a unique address. The blockchain in functionality is a <a href="https://arxiv.org/abs/2105.07447">linked database of addresses and transactions</a>, and multiple platforms exist for the purpose of uploading NFTs to the blockchain.</p>
+
+<h2>Who is Edgar?</h2>
+<hr>
+<p>Edgar is a cartoon character created for the purpose of demonstrating NFT generation. Edgar has 9 possible backgrounds, clothings, mouths, eyes, and hairs, each represented by the corresponding 0-8 digit in the 5-digit Edgar ID. Edgar shows how each NFT has a unique address, in this case represented by the Edgar ID. Instead of verifying ownership, Edgar ID just verifies that each NFT is unique. Click "Refresh" to see a new Edgar, or rate the Edgar on the page with the star system and click "Submit". You can also input an Edgar ID to see a specific Edgar.</p>
 </div>
 
 <footer>

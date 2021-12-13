@@ -13,6 +13,7 @@ h1, h2 {
 
 h1 {
 	text-align: center;
+	filter: drop-shadow(0 0 0.75rem #88ff82);
 }
 
 #edgar{
@@ -396,6 +397,7 @@ header {
     grid-area: story;
 	padding: 25px;
 }
+
 footer {
     grid-area: footer;
 	padding: 25px;
@@ -425,18 +427,18 @@ footer {
     content: '★ ';
 }
 .rate > input:checked ~ label {
-    color: #ffc700;    
+    color: #00BF2C;    
 }
 .rate:not(:checked) > label:hover,
 .rate:not(:checked) > label:hover ~ label {
-    color: #deb217;  
+    color: #0aa812;  
 }
 .rate > input:checked + label:hover,
 .rate > input:checked + label:hover ~ label,
 .rate > input:checked ~ label:hover,
 .rate > input:checked ~ label:hover ~ label,
 .rate > label:hover ~ input:checked ~ label {
-    color: #c59b08;
+    color: #076b0d;
 }
 
 a {
@@ -448,7 +450,7 @@ a:hover {
 }
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 900px){
 	#container{
 		margin: 1rem;
 		max-width: 1280px;

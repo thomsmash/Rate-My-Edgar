@@ -208,7 +208,7 @@ document.getElementById('edgarid').innerHTML -= mo;
 document.getElementById('edgarid').innerHTML -= cl;
 document.getElementById('edgarid').innerHTML -= bg;*/
 
-document.getElementById('edgarid').innerHTML += "ID: ";
+document.getElementById('edgarid').innerHTML += "Edgar ID: ";
 document.getElementById('edgarid').innerHTML += keybg;
 document.getElementById('edgarid').innerHTML += keycl;
 document.getElementById('edgarid').innerHTML += keymo;
