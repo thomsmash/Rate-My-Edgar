@@ -15,8 +15,9 @@ h1 {
 	text-align: center;
 }
 
-#tagline {
-    font-style: italic;
+#edgar{
+	position: relative;
+	margin: 10px;
 }
 
 img {
@@ -325,60 +326,71 @@ header {
 	left: 2;
 	max-width: 200px;
 }
-
+#title{
+	
+}
 #refresh {
 	width: 90px;
 	height: 60px;
 	background-color: #00BF2C;
 	color: #fff;
 	position: absolute;
-	top: 420px;
+	top: 330px;
+	left: 0px;
 }
 #submit1 {
 	width: 90px;
 	height: 60px;
 	background-color: #00BF2C;
 	color: #fff;
-	position: relative;
-	top: 246px;
-	left: 110px;
 	text-align: center;
 	padding-top: 4px;
+	position: absolute;
+	top: 330px;
+	left: 100px;
 }
 
 #text1 {
 	text-align: center;
+	
 }
 #photos{
-
+	
 }
 #edgarid{
-	position: relative;
+	position: absolute;
+	top: 75px;
 	left: 210px;
-	bottom: 50px;
 }
 #edid{
-	position: relative;
-	bottom: 60px;
-	left: 80px;
-}
-#dumbp{
-	position: relative;
-	left: 200px;
+	position: absolute;
+	top: 135px;
+	left: 210px;
+	
 }
 #ined{
-	position: relative;
-	bottom: 50px;
+	position: absolute;
+	top: 95px;
 	left: 210px;
 }
 #submit2{
-	position: relative;
-	bottom: 60px;
-	left: 80px;
+	position: absolute;
+	top: 135px;
+	left: 390px;
 }
 }
 #text2{
 	
+}
+#label1 {
+	position: absolute;
+	top: 145px;
+	left: 210px;
+}
+#stars{
+	position: absolute;
+	top: 170px;
+	left: 200px;
 }
 #story {
     grid-area: story;

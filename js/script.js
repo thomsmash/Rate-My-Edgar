@@ -136,13 +136,16 @@ submit1.onclick = () => {
 }
 
 function findEdgar(){
-	let key = document.getElementByID("edid").value;
-	document.getElementById('dumbp').innerHTML += document.getElementByID("edid").value;
-	/*let keyss = [];
+	let key = $("input:text").val();
+    
+	let keyss = [];
 	if(key.length === 5){
 		for(i=0; i<5; i++) {
 			keyss[i] = key.substr(i, 1);
 		}
+	
+	
+		
 		let keybg = keyss[0];
 		let keycl = keyss[1];
 		let keymo = keyss[2];
@@ -198,11 +201,26 @@ hair6.style.display = 'none';
 hair7.style.display = 'none';
 hair8.style.display = 'none';
 hair9.style.display = 'none';
+
+document.getElementById('edgarid').innerHTML = "";
+/*document.getElementById('edgarid').innerHTML -= ey;
+document.getElementById('edgarid').innerHTML -= mo;
+document.getElementById('edgarid').innerHTML -= cl;
+document.getElementById('edgarid').innerHTML -= bg;*/
+
+document.getElementById('edgarid').innerHTML += "ID: ";
+document.getElementById('edgarid').innerHTML += keybg;
+document.getElementById('edgarid').innerHTML += keycl;
+document.getElementById('edgarid').innerHTML += keymo;
+document.getElementById('edgarid').innerHTML += keyey;
+document.getElementById('edgarid').innerHTML += keyha;
+
+
 		
 		backgrounds[keybg].style.display = 'initial';
 clothes[keycl].style.display = 'initial';
 mouths[keymo].style.display = 'initial';
 eyes[keyey].style.display = 'initial';
 hairs[keyha].style.display = 'initial';
-	}*/
+	}
 }

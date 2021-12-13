@@ -10,7 +10,7 @@
 
 <body>
 
-<!-- this is your grid container -->
+
 <div id="container">
 
 <header>
@@ -79,10 +79,12 @@
 
 <p id="edgarid">ID: </p>
 <p id="ined">Input an Edgar ID:</p>
-<label class="form-control-label">Input an Edgar ID: <input class="form-control" type="text" name="ed" id="edid">
+<input type="text" id="edid">
 <button id="submit2" onclick="findEdgar()">Submit</button>
 
-<div class="rate">
+<p id="label1">Rate This Edgar:</p>
+
+<div class="rate" id="stars">
     <input type="radio" id="star5" name="rate" value="5" />
     <label for="star5" title="text">5 stars</label>
     <input type="radio" id="star4" name="rate" value="4" />
@@ -95,7 +97,7 @@
     <label for="star1" title="text">1 star</label>
   </div>
   
-<p id="dumbp">Here Goes:</p>
+  
 </div>	
 
 
@@ -109,11 +111,13 @@
 </div>
 
 <footer>
-	<p>This page is an assignment for a University of Florida course: JOU 3363 Introduction to Web Apps</p>
 </footer>
 
 
 </div>
+<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
 <script src="js/script.js"></script>
 </body>
 </html>
